@@ -17,8 +17,7 @@
    <mvc:resources location="/" mapping="/*.html"/>
    
    <bean id="viewResolver"
-       class="org.springframework.web.servlet.view
-       InternalResourceViewResolver">
+       class="org.springframework.web.servlet.view.InternalResourceViewResolver">
        <property name="prefix" value="/WEB-INF/jsp/"/>
        <property name="suffix" value=".jsp"/>
        </bean>
